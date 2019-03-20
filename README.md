@@ -24,7 +24,9 @@ Optional
 * Project box
 * Battery
 
-
+## Guide to the Projects
+* ABC - A simple 3 position move for the servo (think Low, Medium and High)
+* Wave - flips between 0 and 180 degrees every 10 seconds
 
 ## Arduino support for IntelliJ
 [Arduino Support - Plugins | JetBrains](https://plugins.jetbrains.com/plugin/11301-arduino-support)
