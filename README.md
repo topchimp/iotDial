@@ -14,6 +14,18 @@ USB driver
 Template
 https://docs.google.com/drawings/d/1FsJtjDKRaOuEkRzTHfADfxqkPdxaVza58anfTz26WXo/edit
 
+## Parts list
+* ESP8266 compatible board
+* Servo like this https://www.adafruit.com/product/169
+* USB cable
+* M/F cables to connect ythe servo
+
+Optional
+* Project box
+* Battery
+
+
+
 ## Arduino support for IntelliJ
 [Arduino Support - Plugins | JetBrains](https://plugins.jetbrains.com/plugin/11301-arduino-support)
 Then plugins> settings > install from disk
