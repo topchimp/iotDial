@@ -4,6 +4,15 @@ This is the repo to support the LOD hack lab to build an IoT dial.
 
 WARNINGS: This is dirty work!
 
+What bits do I need?
+* Servo motor - try [Adafruit Servos](https://www.adafruit.com/product/169)
+* ESP8266 board mine are just cheap generic ones bought via Amazon
+* A cardboard box
+* A pointer thingy
+* Some jumper cables
+
+We'll drive a servo motor using the 3 pinouts 3V3, GND and D5 
+
 ## Install these
 Arduino [Arduino - MacOSX](https://www.arduino.cc/en/guide/MacOSX)
 
@@ -30,7 +39,10 @@ Optional
 * ABC - A simple 3 position move for the servo (think Low, Medium and High)
 * Wave - flips between 0 and 180 degrees every 10 seconds
 
-## Using the generic ESP8266's
+
+
+## Using the generic HiLetgo ESP8266's
+
 ESP8266 is a highly integrated chip designed for the needs of a new connected world. It offers a complete and self-contained Wi-Fi networking solution, allowing it to either host the application or to offload all Wi-Fi networking functions from another application processor. 
 Instruction & Steps of How to use:
 1. Download the Arduino IDE, the latest version. 
@@ -43,6 +55,20 @@ Tools -> Board -> NodeMCU 1.0 (ESP-12E Module)
 Tools -> Flash Size -> 4M (3M SPIFFS)
 Tools -> CPU Frequency -> 80 Mhz
 Tools -> Upload Speed -> 921600
+
+### Pinouts
+![](images/HiLetgo.jpg)
+* 3v3 
+* GND
+* D5
+
+## Using the MakerHawk ESP8266s
+
+![](images/makerhawk.jpg)
+* 3v3 
+* GND
+* D5
+
 
 ## Arduino support for IntelliJ
 [Arduino Support - Plugins | JetBrains](https://plugins.jetbrains.com/plugin/11301-arduino-support)
