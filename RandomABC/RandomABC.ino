@@ -28,6 +28,14 @@ void setup()
 
 void flip() {
 
+  Serial.println("Get Ready...");
+
+  //reset to zero first then wait 3
+  myservo.write(0);
+  delay(3); 
+
+  Serial.println("Go...");
+
  // a random number from 1 to 3
   randNumber = random(1, 4);
   if (randNumber == 1){
