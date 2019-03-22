@@ -29,7 +29,6 @@ const int httpsPort = 443;
 
 // Use web browser to view and copy
 // SHA1 fingerprint of the certificate
-//const char fingerprint[] PROGMEM = "5F F1 60 31 09 04 3E F2 90 D2 B0 8A 50 38 04 E8 37 9F BC 76";
 const char fingerprint[] PROGMEM = "CC AA 48 48 66 46 0E 91 53 2C 9C 7C 23 2A B1 74 4D 29 9D 33";
 void setup() {
   Serial.begin(115200);
@@ -81,7 +80,7 @@ Serial.setDebugOutput(true);
     }
   }
   String line = client.readStringUntil('\n');
-  
+
   Serial.println("reply was:");
   Serial.println("==========");
   Serial.println(line);
