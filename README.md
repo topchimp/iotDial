@@ -41,7 +41,7 @@ Optional
 
 
 
-## Using the generic HiLetgo ESP8266's
+## Using the generic HiLetgo ESP8266's e.g. MakerHawk
 
 ESP8266 is a highly integrated chip designed for the needs of a new connected world. It offers a complete and self-contained Wi-Fi networking solution, allowing it to either host the application or to offload all Wi-Fi networking functions from another application processor. 
 Instruction & Steps of How to use:
@@ -63,11 +63,18 @@ Tools -> Upload Speed -> 921600
 * D5
 
 ## Using the MakerHawk ESP8266s
+Here's a picture of the MakerHawk. Underneath it is black with a large white wifi logo
+
+![](images/imagemakerhawk.jpg)
+
 
 ![](images/makerhawk.jpg)
 * 3v3 
 * GND
 * D5
+
+IDE Settings for makerhawk (it seems to like a strange port!)
+![](images/makerhawkidesettings.png)
 
 
 ## Arduino support for IntelliJ
